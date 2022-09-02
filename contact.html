@@ -9,6 +9,7 @@
   <title>Phoenix</title>
   <link rel="icon" type="image/x-icon" href="icon.svg">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -245,6 +246,28 @@
     </button>
 
   </section>
+
+  <!-- WHATSAPP -->
+  <div class="nav-bottom">
+    <div class="popup-whatsapp fadeIn">
+       <div class="content-whatsapp -top"><button type="button" class="closePopup">
+             <i class="material-icons icon-font-color">close</i>
+          </button>
+          <p>Hola 🤩, ¡Puedes contáctarnos por nuestro canal de Whatsapp!.</p>
+       </div>
+       <div class="content-whatsapp -bottom">
+          <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+          <button class="send-msPopup" id="send-btn" type="button">
+             <i class="material-icons icon-font-color--black">send</i>
+          </button>
+       </div>
+    </div>
+    <button type="button" id="whats-openPopup" class="whatsapp-button">
+       <img class="icon-whatsapp" src="https://cdn-icons-png.flaticon.com/512/134/134937.png">
+    </button>
+    <div class="circle-anime"></div>
+ </div>
+ <!-- CLOSE WHATSAPP -->
 
   <script>
     // When the user scrolls down 20px from the top of the document, show the button
