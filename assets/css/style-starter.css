@@ -14643,12 +14643,12 @@ button.owl-next {
 }
 
 .w3l-main-slider .banner-top1 {
-  background: url(../images/10.jpeg) no-repeat center;
+  background: url(../images/banner/banner-2.jpg) no-repeat center;
   background-size: cover;
 }
 
 .w3l-main-slider .banner-top2 {
-  background: url(../images/11.jpeg) no-repeat center;
+  background: url(../images/banner/banner-3.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -15890,6 +15890,7 @@ p.stats-text {
   line-height: 30px;
   margin-bottom: 20px;
   color: var(--white);
+  text-transform: uppercase;
   font-weight: 700;
 }
 
@@ -15910,7 +15911,6 @@ p.stats-text {
   color: var(--light);
   font-size: 18px;
   line-height: 28px;
-  font-weight: 600;
 }
 
 .w3l-medpill-footer ul.timing li {
@@ -15921,7 +15921,6 @@ p.stats-text {
 .w3l-medpill-footer .footer-list-28 ul.address li a,
 .w3l-medpill-footer .footer-list-28 ul.timing li a {
   color: var(--white);
-  font-weight: 600;
 }
 
 .w3l-medpill-footer .footer-list-28 ul.address li p span.fa, .timing li .fa, .fa-arrow-right   {
