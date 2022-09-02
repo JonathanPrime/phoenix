@@ -54,6 +54,10 @@
   font-family: 'poppinsregular';
 } 
 
+.invima {
+  color: var(--palet-2);
+}
+
 *,
 *::before,
 *::after {
@@ -94,6 +98,9 @@ p {
   margin-top: 0;
   margin-bottom: 1rem; }
 
+.zoom  {
+  background-color: white;
+}
 
 /*new one*/
 .fa {
@@ -462,6 +469,10 @@ h6, .h6 {
   max-width: 100%;
  height: auto; }
 
+ .img-fluid-pro {
+  width: 100%;
+ height: auto; }
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -516,6 +527,7 @@ h6, .h6 {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
+  justify-content: center;
   margin-left: -15px; }
 
 .no-gutters {
@@ -4208,7 +4220,7 @@ a.close.disabled {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border-radius: 3rem !important;
   outline: 0; }
 
 .modal-backdrop {
@@ -9623,10 +9635,19 @@ p.white {
   background: #fff;
   border: 2px solid #fff; }
 
-h3.title {
-  font-size: 35px;
+h4.title {
+  font-size: 25px;
   font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'poppinsregular';
   line-height: 40px; }
+
+  h2.title {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'poppinsbold';
+    line-height: 40px; }
 
 .w3l-call-to-action_9 .call-grids-w3 {
   display: grid;
@@ -9638,6 +9659,9 @@ h3.title {
     grid-template-columns: 1fr 1fr 1fr; } }
 
 @media (max-width: 568px) {
+  .about .content .title{
+    font-size: 3rem;
+  }
   h3.title {
     font-size: 30px;
     line-height: 35px; } }
@@ -10455,7 +10479,7 @@ button.owl-next {
   display: block; }
 
 .modal button.close span:hover {
-  background: #17449e;
+  background: var(--palet-2);
   color: #fff; }
 
 h2.logo {
@@ -11742,7 +11766,7 @@ p.stats-text {
     line-height: 28px;
     margin-bottom: 10px;
     display: inline-block;
-    color: var(--heading-color); }
+    color: var(--dark); }
   .w3l-services-1 .service-info p {
     margin-top: 10px; }
   .w3l-services-1 a.feature-link {
@@ -11750,11 +11774,11 @@ p.stats-text {
     font-size: 17px;
     line-height: 25px;
     margin-top: 20px;
-    color: #17449e;
+    color: var(--palet-1);
     font-weight: 700;
     text-transform: capitalize; }
   .w3l-services-1 a.feature-link:hover {
-    color: var(--text-hover-color); }
+    color: var(--palet-2); }
   .w3l-services-1 a.feature-link span.fa {
     transition: 0.3s ease; }
   .w3l-services-1 a.feature-link:hover span.fa {
@@ -11765,12 +11789,11 @@ p.stats-text {
       display: inline-block;
       font-size: 17px;
       line-height: 25px;
-      margin-top: 20px;
-      color: #17449e;
+      color: var(--palet-1);
       font-weight: 400;
       text-transform: capitalize; }
     .w3l-services-1 a.getquota:hover {
-      color: var(--text-hover-color); }
+      color: var(--palet-2); }
     .w3l-services-1 a.getquota span.fa {
       transition: 0.3s ease; }
     .w3l-services-1 a.getquota:hover span.fa {
