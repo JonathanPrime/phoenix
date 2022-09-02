@@ -15882,13 +15882,14 @@ p.stats-text {
 }
 
 .w3l-medpill-footer footer.footer-28 {
-  background: #fff;
+  background: var(--dark);
 }
 
 .w3l-medpill-footer h6.footer-title-28 {
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 20px;
+  color: var(--white);
   font-weight: 700;
 }
 
@@ -15906,23 +15907,28 @@ p.stats-text {
 .w3l-medpill-footer .footer-list-28 ul li a,
 .w3l-medpill-footer .footer-list-28 ul li p {
   font-weight: normal;
-  color: var(--para-color);
+  color: var(--light);
   font-size: 18px;
   line-height: 28px;
   font-weight: 600;
 }
 
 .w3l-medpill-footer ul.timing li {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--palet-2);
   padding-bottom: 12px;
 }
 
 .w3l-medpill-footer .footer-list-28 ul.address li a,
-.w3l-medpill-footer .footer-list-28 ul.timing li a,
-.w3l-medpill-footer .footer-list-28 ul.address li p span.fa {
+.w3l-medpill-footer .footer-list-28 ul.timing li a {
+  color: var(--white);
+  font-weight: 600;
+}
+
+.w3l-medpill-footer .footer-list-28 ul.address li p span.fa, .timing li .fa, .fa-arrow-right   {
   color: var(--palet-1);
   font-weight: 600;
 }
+
 
 .w3l-medpill-footer ul.timing li a {
   display: grid;
@@ -15953,11 +15959,12 @@ p.stats-text {
 }
 
 .w3l-medpill-footer .copy-footer-28 a {
-  color: #666;
+  color: var(--palet-2);
+  font-family: 'poppinsbold'; 
 }
 
 .w3l-medpill-footer .copy-footer-28 a:hover {
-  text-decoration: underline;
+  color: var(--dark);
   opacity: 1;
 }
 
