@@ -11,7 +11,7 @@ function popupWhatsApp() {
 
   btnOpenPopup.addEventListener("click", () => {
     popup.classList.toggle('is-active-whatsapp-popup')
-    popup.style.animation = "fadeIn .6s 0.0s both";
+    popup.style.animation = ".6s 0.0s both";
   })
 
   sendBtn.addEventListener("click", () => {
